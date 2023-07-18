@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &238375363978721298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3932592273960351425}
+  m_Layer: 12
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3932592273960351425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238375363978721298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.046, y: -1.02, z: -0.028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1302923195965446320}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4250490327275631782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302923195965446320}
+  - component: {fileID: 373915646954562568}
+  - component: {fileID: 8449804833814531130}
+  m_Layer: 12
+  m_Name: TurretDefenceSpawn
+  m_TagString: Centrale
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302923195965446320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250490327275631782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.5555525, y: 5.5555553, z: 5.5555525}
+  m_Children:
+  - {fileID: 3932592273960351425}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &373915646954562568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250490327275631782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6096353, y: 3.1356578, z: 0.25604934}
+  m_Center: {x: 0.4553482, y: -1.0678291, z: -0.096239045}
+--- !u!114 &8449804833814531130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250490327275631782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce5572dfcdf55648af8e3b4bc2a34aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundVehicleShooting:
+  - {fileID: 6391966078774229738, guid: 017044845e80c464bbb5d00f18ad7114, type: 3}
+  - {fileID: 2461322351363070498, guid: 36e8848199f5cfe4abe19c2ca955d3df, type: 3}
+  - {fileID: 6421541244401354584, guid: a34b0e2975de61e4ab945e5605b321a2, type: 3}
+  - {fileID: 706391849545885358, guid: 16956ca2c94b5fd4fb590c2e939ff259, type: 3}
+  groundVehicleNoShooting:
+  - {fileID: 851680878448240921, guid: 0bb32f3d4bbbe4d4b86a39013531ea58, type: 3}
+  - {fileID: 2957072143708563781, guid: b5fb4e94a5d67db4ba5bd167b9a45aad, type: 3}
+  flyingVehicleShooting:
+  - {fileID: 7903336317884104596, guid: 1191e8ade4072f14f9796e0e38bffd33, type: 3}
+  - {fileID: 4168942931102142244, guid: ec1093ab26aee4f46ad357b61d5069e5, type: 3}
+  flyingVehicleNoShooting:
+  - {fileID: 6421604495823619196, guid: 9089af7b0357ad44986e144ba1586caf, type: 3}
+  - {fileID: 7001525829433070842, guid: b7dabbeb2e424f34f9c30a42847b8257, type: 3}
+  - {fileID: 9218125658501971637, guid: 4ca4790cc81c76d4a9ef453ca27edd6d, type: 3}
+  - {fileID: 5526050525499293709, guid: c13ee9eee4ae7164d88ec11f077f7fd3, type: 3}
+  - {fileID: 1494950377354974567, guid: ffdf99b5c8ee8894d8bed2922a38d864, type: 3}
+  - {fileID: 6126145782537984050, guid: 9c6b7347b4d78c84ea5e3c0bac4aef2f, type: 3}

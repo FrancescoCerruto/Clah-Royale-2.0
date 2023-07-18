@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbf5c549e40e5834584dcf46cd1c1ea2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - car: {fileID: 2917045753310320517, guid: 485c1f0486547f3428e53ba44be8bc2e, type: 3}
+  - tower: {fileID: 3367691262180006451, guid: 15e96180e2597fd49a3df4ed616dc7ef, type: 3}
+  - centralTower: {fileID: 2262505510587627343, guid: 8870db558be654e44bbc41bb2e533ddd, type: 3}
+  - airplane: {fileID: 6343221093574952021, guid: 6ef35fa36e3a65043b2d800600204bdd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
